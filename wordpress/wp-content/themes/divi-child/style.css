@@ -1,0 +1,358 @@
+/*
+
+ Theme Name:     Divi Child
+
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+
+ Description:    Divi Child Theme
+
+ Author:         Elegant Themes
+
+ Author URI:     https://www.elegantthemes.com
+
+ Template:       Divi
+
+ Version:        1.0.0
+
+*/
+
+ 
+
+ 
+
+/* =Theme customization starts here
+
+------------------------------------------------------- */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+h1,h2,h3,h4 {
+ font-family: "Poppins", sans-serif;
+}
+body,p {
+font-size:18px;
+line-height:30px;
+color:#000;
+font-weight:400;
+font-family: "Inter", sans-serif;
+}
+
+/* header css start here  */
+
+
+.call-btn:before {
+    position: absolute;
+    content: url(http://localhost/nanaktech/wordpress/wp-content/uploads/2024/05/telephone-call-w.png);
+    top: 0px;
+    left: 0;
+}
+ul.top-header-social {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    gap: 6px;
+    padding: 0;
+}
+ul.top-header-social img {
+    width: 70%;
+}
+
+.call-btn {
+    position: relative;
+    padding-left: 33px;
+    margin-top: 5px;
+    display: inline-block;
+	color:#fff;
+	font-size:16px;
+	font-family: "Inter", sans-serif;
+}
+
+ul#menu-main-menu {
+    display: flex;
+    gap: 48px;
+}
+
+ul#menu-main-menu li a{
+  font-size:16px;
+  font-weight:500;
+  color:#000;
+	font-family: "Inter", sans-serif;
+}
+
+li.menu-item-20 a {
+    padding: 25px 35px !important;
+    background-color: #F47822 !important;
+    height: 20px;
+    border-radius: 50px;
+    position: relative;
+    top: 28px;	
+	color:#fff !important;
+	font-family: "Inter", sans-serif;
+}
+
+.uppar-main-header {
+    position: absolute;
+    width: 100%;
+	background-color:transparent !important;
+}
+.uppar-main-header.et_pb_sticky--top {
+  background-color:#fff !important;
+}
+
+
+/* header css end here  */
+
+
+/* banner css start here  */
+
+.banner-head h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #292965;
+    padding-left: 60px;
+	position:relative;
+	
+}
+.banner-head h4:before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    width: 40px;
+    height: 3px;
+    background-color: #F47822;
+    bottom: 20px;
+}
+
+.banner-head h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #292965;
+    line-height: 54px;
+    padding-top: 10px;
+}
+
+/* banner css end here  */
+
+.middle-heading h2 {
+	font-size:42px;
+	font-weight:700;
+	color:#292965;
+	line-height:52px;
+	
+}
+
+.middle-heading h2 span {
+	color:#F47822;
+}
+.middle-heading p {
+	padding-top:20px;
+}
+.service-box-main {
+    display: flex;
+    gap: 30px;
+}
+
+.service-box {
+    background-color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+	border-radius:5px;
+    width: 33%;
+    box-shadow: 0px 2px 18px 0px rgba(9, 162, 214, 0.14);
+}
+.top-box{
+	position:relative;
+	top:-110px;
+}
+.bottom-box {
+	position:relative;
+	top: 110px;
+}
+.service-box h4 {
+	font-size:18px;
+	font-weight:500;
+	line-height:30px;
+	color:#000;
+}
+
+.service-box:hover {
+	border:2px solid #292965;
+}
+
+
+.nanak-logo {
+    text-align: center;
+}
+
+ul.listing {
+    margin-top: 30px;
+    padding: 0;
+}
+
+ul.listing li {
+    font-size: 18px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 400;
+    list-style: none;
+    position: relative;
+    padding: 6px 0px 6px 30px;
+}
+ul.listing li:before{
+	content:'';
+	position:absolute;
+	left:0px;
+	top:13px;
+	width:14px;
+	height:14px;
+	border-radius:50px;
+	background-color:#F47822;
+}
+
+.bar-counter-main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.bar-counter {
+    width: 30%;
+    text-align: center;
+}
+
+.bar-counter h4{
+	font-size:28px;
+	font-weight:700;
+	line-height:38px;
+	color:#000;
+}
+.bar-counter p{
+	line-height:25px;
+}
+
+
+.et_pb_tabs.delevry-tabs {
+    border: transparent !important;
+}
+
+.delevry-tabs ul.et_pb_tabs_controls {
+    background-color: transparent !important;
+    display: flex;
+	gap:30px;
+    justify-content: center;
+}
+
+.delevry-tabs .et_pb_all_tabs {
+    background-color: transparent;
+    margin-top: 45px;
+}
+.delevry-tabs .et_pb_tabs_controls li {
+	padding-bottom:20px;
+	 border-right: none !important;
+	font-size:22px;
+	font-weight:600;
+	 font-family: "Poppins", sans-serif;
+}
+
+.delevry-tabs .et_pb_tabs_controls li.et_pb_tab_active {
+    background-color: transparent;
+    border-bottom: 2px solid #F47822;
+}
+
+
+.tabs-contant-main {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.tabs-contant-inner {
+    width: 32%;
+    text-align: center;
+}
+.tabs-contant-inner h4 {
+	font-size:22px;
+	font-weight:600;
+	color:#000;
+}
+
+.tabs-contant-inner p{
+ margin-top:20px;
+}
+
+.contact-btn a{
+  padding: 10px 50px;	
+}
+
+.work-logo-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    top: 44px;
+}
+.work-logo img {
+    aspect-ratio: 3 / 2;
+    width: 100%;
+    object-fit: contain;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+	box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.09);
+}
+
+
+
+/* button hover css start here  */
+
+.comm-btn {
+    position: relative;
+    padding: 12px 27px;
+    border-radius: 50px;
+    border: none;
+    color: #fff !important;
+    background-color: #F47822;
+    transition: all 0.2s ease;
+    outline: none;
+    margin: 0;
+    display: inline-block;
+    font-size: 18px;
+    overflow: hidden;
+	 transition: color 0.4s;
+    z-index: 1;
+}
+
+
+.comm-btn::before {
+ content: '';
+ width: 0;
+ height: 3em;
+ border-radius: 30em;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-color:#292965;
+ transition: .5s ease;
+ display: block;
+ z-index: -1;
+}
+
+.comm-btn:hover::before {
+ width: 100%;
+}
+
+
+
+
+
+
+
+
+/* button hover css end here  */
+
+
+
