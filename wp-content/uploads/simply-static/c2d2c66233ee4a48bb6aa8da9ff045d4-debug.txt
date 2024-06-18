@@ -1,0 +1,2 @@
+[2024-06-18 20:03:36] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/nanaktech/wordpress
+[2024-06-18 20:03:37] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/nanaktech/wordpress
